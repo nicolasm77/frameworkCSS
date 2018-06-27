@@ -1,0 +1,168 @@
+// Backgrounds colors
+.hub-bg-color-black {
+	background-color: $black !important;
+	@include breakpoints($xs) {
+		&-xs {
+			background-color: $black !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			background-color: $black !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			background-color: $black !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			background-color: $black !important;
+		}
+	}
+}
+
+.hub-bg-color-blue {
+	background-color: $blue !important;
+	@include breakpoints($xs) {
+		&-xs {
+			background-color: $blue !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			background-color: $blue !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			background-color: $blue !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			background-color: $blue !important;
+		}
+	}
+}
+
+.hub-bg-color-dark-grey {
+	background-color: $dark-grey !important;
+	@include breakpoints($xs) {
+		&-xs {
+			background-color: $dark-grey !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			background-color: $dark-grey !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			background-color: $dark-grey !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			background-color: $dark-grey !important;
+		}
+	}
+}
+
+.hub-bg-color-light-blue {
+	background-color: $light-blue !important;
+	@include breakpoints($xs) {
+		&-xs {
+			background-color: $light-blue !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			background-color: $light-blue !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			background-color: $light-blue !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			background-color: $light-blue !important;
+		}
+	}
+}
+
+.hub-bg-color-light-grey {
+	background-color: $light-grey !important;
+	@include breakpoints($xs) {
+		&-xs {
+			background-color: $light-grey !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			background-color: $light-grey !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			background-color: $light-grey !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			background-color: $light-grey !important;
+		}
+	}
+}
+
+.hub-bg-color-orange {
+	background-color: $orange !important;
+	@include breakpoints($xs) {
+		&-xs {
+			background-color: $orange !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			background-color: $orange !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			background-color: $orange !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			background-color: $orange !important;
+		}
+	}
+}
+
+.hub-bg-color-white {
+	background-color: $white !important;
+	@include breakpoints($xs) {
+		&-xs {
+			background-color: $white !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			background-color: $white !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			background-color: $white !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			background-color: $white !important;
+		}
+	}
+}

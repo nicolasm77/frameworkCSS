@@ -1,0 +1,72 @@
+// Text transform
+.hub-text-lowercase {
+	text-transform: lowercase !important;
+	@include breakpoints($xs) {
+		&-xs {
+			text-transform: lowercase !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			text-transform: lowercase !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			text-transform: lowercase !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			text-transform: lowercase !important;
+		}
+	}
+}
+
+.hub-text-uppercase {
+	text-transform: uppercase !important;
+	@include breakpoints($xs) {
+		&-xs {
+			text-transform: uppercase !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			text-transform: uppercase !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			text-transform: uppercase !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			text-transform: uppercase !important;
+		}
+	}
+}
+
+.hub-text-capitalize {
+	text-transform: capitalize !important;
+	@include breakpoints($xs) {
+		&-xs {
+			text-transform: capitalize !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			text-transform: capitalize !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			text-transform: capitalize !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			text-transform: capitalize !important;
+		}
+	}
+}

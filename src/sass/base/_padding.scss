@@ -1,0 +1,174 @@
+// Padding
+@for $i from 0 through 20 {
+	.hub-pd-#{$i * 5} {
+		padding: 1px * ($i * 5) !important;
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($xs) {
+		.hub-pd-#{$i * 5}-xs {
+			padding: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($sm) {
+		.hub-pd-#{$i * 5}-sm {
+			padding: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($md) {
+		.hub-pd-#{$i * 5}-md {
+			padding: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($lg) {
+		.hub-pd-#{$i * 5}-lg {
+			padding: 1px * ($i * 5) !important;
+		}
+	}
+}
+
+// Padding top
+@for $i from 0 through 20 {
+	.hub-pt-#{$i * 5} {
+		padding-top: 1px * ($i * 5) !important;
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($xs) {
+		.hub-pt-#{$i * 5}-xs {
+			padding-top: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($sm) {
+		.hub-pt-#{$i * 5}-sm {
+			padding-top: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($md) {
+		.hub-pt-#{$i * 5}-md {
+			padding-top: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($lg) {
+		.hub-pt-#{$i * 5}-lg {
+			padding-top: 1px * ($i * 5) !important;
+		}
+	}
+}
+
+// Padding right
+@for $i from 0 through 20 {
+	.hub-pr-#{$i * 5} {
+		padding-right: 1px * ($i * 5) !important;
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($xs) {
+		.hub-pr-#{$i * 5}-xs {
+			padding-right: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($sm) {
+		.hub-pr-#{$i * 5}-sm {
+			padding-right: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($md) {
+		.hub-pr-#{$i * 5}-md {
+			padding-right: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($lg) {
+		.hub-pr-#{$i * 5}-lg {
+			padding-right: 1px * ($i * 5) !important;
+		}
+	}
+}
+
+// Padding bottom
+@for $i from 0 through 20 {
+	.hub-pb-#{$i * 5} {
+		padding-bottom: 1px * ($i * 5) !important;
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($xs) {
+		.hub-pb-#{$i * 5}-xs {
+			padding-bottom: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($sm) {
+		.hub-pb-#{$i * 5}-sm {
+			padding-bottom: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($md) {
+		.hub-pb-#{$i * 5}-md {
+			padding-bottom: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($lg) {
+		.hub-pb-#{$i * 5}-lg {
+			padding-bottom: 1px * ($i * 5) !important;
+		}
+	}
+}
+
+// Padding left
+@for $i from 0 through 20 {
+	.hub-pl-#{$i * 5} {
+		padding-left: 1px * ($i * 5) !important;
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($xs) {
+		.hub-pl-#{$i * 5}-xs {
+			padding-left: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($sm) {
+		.hub-pl-#{$i * 5}-sm {
+			padding-left: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($md) {
+		.hub-pl-#{$i * 5}-md {
+			padding-left: 1px * ($i * 5) !important;
+		}
+	}
+}
+@for $i from 0 through 20 {
+	@include breakpoints($lg) {
+		.hub-pl-#{$i * 5}-lg {
+			padding-left: 1px * ($i * 5) !important;
+		}
+	}
+}

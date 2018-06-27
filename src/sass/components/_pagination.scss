@@ -1,0 +1,72 @@
+/*---------------*\
+  $PAGINATION
+\*---------------*/
+/**
+ * PAGINATION......
+*/
+
+// Pagination
+.hub-pagination {
+	display: inline-block;
+	ul {
+		font-size: 0;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			display: inline-block;
+			font-size: 14px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			vertical-align: middle;
+			width: 30px;
+			a,
+			a:focus,
+			a:hover {
+				color: $dark-grey;
+				display: block;
+				height: 30px;
+				text-decoration: none;
+				width: 30px;
+			}
+			a:hover {
+				background-color: $light-blue;
+			}
+			&.active {
+				background-color: $blue;
+				color: $white;
+			}
+			&.disabled {
+				color: $light-grey;
+			}
+		}
+	}
+	&__prev,
+	&__next {
+		border: 1px solid $light-grey;
+		font-size: 20px !important;
+		font-weight: 700;
+		line-height: 28px !important;
+		a,
+		a:focus,
+		a:hover {
+			height: 28px !important;
+			width: 28px !important;
+		}
+	}
+	&__prev {
+		&::before {
+			content: "‹";
+		}
+	}
+	&__next {
+		a,
+		a:focus,
+		a:hover {
+			&::before {
+				content: "›";
+			}
+		}
+	}
+}

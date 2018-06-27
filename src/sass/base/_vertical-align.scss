@@ -1,0 +1,144 @@
+// Vertical align
+.hub-align-baseline {
+	vertical-align: baseline !important;
+	@include breakpoints($xs) {
+		&-xs {
+			vertical-align: baseline !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			vertical-align: baseline !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			vertical-align: baseline !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			vertical-align: baseline !important;
+		}
+	}
+}
+
+.hub-align-top {
+	vertical-align: top !important;
+	@include breakpoints($xs) {
+		&-xs {
+			vertical-align: top !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			vertical-align: top !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			vertical-align: top !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			vertical-align: top !important;
+		}
+	}
+}
+
+.hub-align-middle {
+	vertical-align: middle !important;
+	@include breakpoints($xs) {
+		&-xs {
+			vertical-align: middle !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			vertical-align: middle !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			vertical-align: middle !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			vertical-align: middle !important;
+		}
+	}
+}
+
+.hub-align-bottom {
+	vertical-align: bottom !important;
+	@include breakpoints($xs) {
+		&-xs {
+			vertical-align: bottom !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			vertical-align: bottom !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			vertical-align: bottom !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			vertical-align: bottom !important;
+		}
+	}
+}
+
+.hub-align-text-top {
+	vertical-align: text-top !important;
+	@include breakpoints($xs) {
+		&-xs {
+			vertical-align: text-top !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			vertical-align: text-top !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			vertical-align: text-top !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			vertical-align: text-top !important;
+		}
+	}
+}
+
+.hub-align-text-bottom {
+	vertical-align: text-bottom !important;
+	@include breakpoints($xs) {
+		&-xs {
+			vertical-align: text-bottom !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			vertical-align: text-bottom !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			vertical-align: text-bottom !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			vertical-align: text-bottom !important;
+		}
+	}
+}

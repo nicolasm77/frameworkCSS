@@ -1,0 +1,168 @@
+// Colors
+.hub-color-black {
+	color: $black !important;
+	@include breakpoints($xs) {
+		&-xs {
+			color: $black !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			color: $black !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			color: $black !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			color: $black !important;
+		}
+	}
+}
+
+.hub-color-blue {
+	color: $blue !important;
+	@include breakpoints($xs) {
+		&-xs {
+			color: $blue !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			color: $blue !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			color: $blue !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			color: $blue !important;
+		}
+	}
+}
+
+.hub-color-dark-grey {
+	color: $dark-grey !important;
+	@include breakpoints($xs) {
+		&-xs {
+			color: $dark-grey !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			color: $dark-grey !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			color: $dark-grey !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			color: $dark-grey !important;
+		}
+	}
+}
+
+.hub-color-light-blue {
+	color: $light-blue !important;
+	@include breakpoints($xs) {
+		&-xs {
+			color: $light-blue !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			color: $light-blue !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			color: $light-blue !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			color: $light-blue !important;
+		}
+	}
+}
+
+.hub-color-light-grey {
+	color: $light-grey !important;
+	@include breakpoints($xs) {
+		&-xs {
+			color: $light-grey !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			color: $light-grey !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			color: $light-grey !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			color: $light-grey !important;
+		}
+	}
+}
+
+.hub-color-orange {
+	color: $orange !important;
+	@include breakpoints($xs) {
+		&-xs {
+			color: $orange !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			color: $orange !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			color: $orange !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			color: $orange !important;
+		}
+	}
+}
+
+.hub-color-white {
+	color: $white !important;
+	@include breakpoints($xs) {
+		&-xs {
+			color: $white !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			color: $white !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			color: $white !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			color: $white !important;
+		}
+	}
+}

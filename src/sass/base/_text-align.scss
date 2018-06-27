@@ -1,0 +1,120 @@
+// Text align
+.hub-text-left {
+	text-align: left !important;
+	@include breakpoints($xs) {
+		&-xs {
+			text-align: left !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			text-align: left !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			text-align: left !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			text-align: left !important;
+		}
+	}
+}
+
+.hub-text-center {
+	text-align: center !important;
+	@include breakpoints($xs) {
+		&-xs {
+			text-align: center !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			text-align: center !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			text-align: center !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			text-align: center !important;
+		}
+	}
+}
+
+.hub-text-right {
+	text-align: right !important;
+	@include breakpoints($xs) {
+		&-xs {
+			text-align: right !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			text-align: right !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			text-align: right !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			text-align: right !important;
+		}
+	}
+}
+
+.hub-text-justify {
+	text-align: justify !important;
+	@include breakpoints($xs) {
+		&-xs {
+			text-align: justify !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			text-align: justify !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			text-align: justify !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			text-align: justify !important;
+		}
+	}
+}
+
+.hub-text-nowrap {
+	white-space: nowrap !important;
+	@include breakpoints($xs) {
+		&-xs {
+			white-space: nowrap !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			white-space: nowrap !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			white-space: nowrap !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			white-space: nowrap !important;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+// Breakpoints
+$xs: "(max-width: 575.99px)";                         // XS (portrait phones)
+$sm: "(min-width: 576px) and (max-width: 767.99px)";  // SM (landscape phones)
+$md: "(min-width: 768px) and (max-width: 991.99px)";  // MD (tablets)
+$lg: "(min-width: 992px)";                            // LG (desktops)
+
+// Colors
+$black: rgb(0,0,0);            // #000000
+$blue: rgb(0,150,177);         // #0096B1
+$dark-grey: rgb(59,59,59);     // #3b3b3b
+$light-blue: rgb(225,243,246); // #e1f3f6
+$light-grey: rgb(219,219,219); // #dbdbdb
+$orange: rgb(255,92,0);        // #ff5c00
+$white: rgb(255,255,255);      // #ffffff
+
+// Grid
+$cols: 12;
+
+// Padding
+$space: 1rem;

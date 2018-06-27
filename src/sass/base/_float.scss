@@ -1,0 +1,72 @@
+// Display
+.hub-float-left {
+	float: left !important;
+	@include breakpoints($xs) {
+		&-xs {
+			float: left !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			float: left !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			float: left !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			float: left !important;
+		}
+	}
+}
+
+.hub-float-right {
+	float: right !important;
+	@include breakpoints($xs) {
+		&-xs {
+			float: right !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			float: right !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			float: right !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			float: right !important;
+		}
+	}
+}
+
+.hub-float-none {
+	float: none !important;
+	@include breakpoints($xs) {
+		&-xs {
+			float: none !important;
+		}
+	}
+	@include breakpoints($sm) {
+		&-sm {
+			float: none !important;
+		}
+	}
+	@include breakpoints($md) {
+		&-md {
+			float: none !important;
+		}
+	}
+	@include breakpoints($lg) {
+		&-lg {
+			float: none !important;
+		}
+	}
+}

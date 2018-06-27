@@ -1,0 +1,44 @@
+/*---------------*\
+  $MIXINS
+\*---------------*/
+/**
+ * Breakpoints.....
+ * BORDER-RADIUS...
+ * BOX-SHADOW......
+ * OPACITY.........
+ * TRANSLATE.......
+ * TRANSITION......
+ */
+
+// Border radius
+@mixin border-radius($radius) {
+	border-radius: $radius;
+}
+
+// Breakpoints
+@mixin breakpoints($media) {
+	@media only screen and #{$media} {
+		@content;
+	}
+}
+
+// Box shadow
+@mixin box-shadow($x, $y, $blur, $spread, $color) {
+	box-shadow: $x $y $blur $spread $color;
+}
+
+// Opacity
+@mixin opacity($opacity, $alpha) {
+	opacity: $opacity;
+	filter: alpha(opacity=$alpha);
+}
+
+// Translate
+@mixin translate($y, $x) {
+	transform: translate($y,$x);
+}
+
+// Transition
+@mixin transition($property, $timing, $delay) {
+	transition: $property $timing $delay;
+}
